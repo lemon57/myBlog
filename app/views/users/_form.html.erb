@@ -14,7 +14,7 @@
      <%= f.label :email %>
     </div>
     <div class="col-sm-4">
-     <%= f.text_field :email, class: "form-control", placeholder: "User email" %>
+     <%= f.text_field :email, class: "form-control", placeholder: "Enter email" %>
     </div>
    </div>
    <div class="form-group">
@@ -22,14 +22,14 @@
      <%= f.label :password %>
     </div>
     <div class="col-sm-4">
-     <%= f.text_field :password, class: "form-control", placeholder: "User password" %>
+     <%= f.text_field :password, class: "form-control", placeholder: "Enter password" %>
     </div>
    </div>
-    <div class="form-group">
-     <div class="col-sm-offset-4 col-sm-8">
-      <%= f.submit class: 'btn btn-primary btn-large' %>
-     </div>
+   <div class="form-group">
+    <div class="col-sm-offset-4 col-sm-8">
+     <%= f.submit(@user.new_record?  ? "Sign up" : "Update account", class: 'btn btn-primary btn-large') %>
     </div>
+   </div>
 
   <% end %>
   <div class="col-sm-offset-4 col-sm-8">
