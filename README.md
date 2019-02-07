@@ -1,4 +1,11 @@
-# README
+## Rails App - Blog based in Udemy course.
+
+Use instructions from here 
+
+**Blog functionality:**</br> 
+ - CRUD artilces, 
+ - view with pagination, 
+ - create, signin up, validations and authentication users.
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
